@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+Greetings!
+
+I'm a software developer! Oh great.
