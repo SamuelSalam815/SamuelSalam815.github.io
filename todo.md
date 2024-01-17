@@ -1,0 +1,4 @@
+- move site to subdirectory
+- add description about self
+- add post for squaredle solver
+- style the page after nier automata ui
