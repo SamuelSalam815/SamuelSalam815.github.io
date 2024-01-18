@@ -1,5 +1,13 @@
-- create portfolio outline
-- move site to subdirectory
-- add description about self
-- add post for squaredle solver
-- style the page after nier automata ui
+- [x] create portfolio outline
+- [x] move site to subdirectory
+- [x] add description about self
+- [ ] add post for squaredle solver
+    - [ ] describe problem
+    - [ ] add screen capture of application
+    - [ ] link to git repository
+    - [ ] improve code documentation
+- [ ] style the page after nier automata ui
+- [ ] add missing media 
+    - [ ] use linked-in profile picture for 'about me' section
+    - [ ] add a favorite clip from anime
+    - [ ] link to champion gundyr clip
