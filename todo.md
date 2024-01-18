@@ -1,3 +1,4 @@
+- create portfolio outline
 - move site to subdirectory
 - add description about self
 - add post for squaredle solver
