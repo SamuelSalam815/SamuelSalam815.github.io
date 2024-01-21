@@ -51,3 +51,21 @@ ul {
   opacity: 0.05;
   z-index: 100; 
 }
+
+#unit-likeness-figure {
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+#unit-likeness-image {
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right:0;
+}
+
+#unit-likeness-caption {
+  text-align: center;
+}
