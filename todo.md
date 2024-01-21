@@ -6,8 +6,6 @@
     - [ ] add screen capture of application
     - [ ] link to git repository
     - [ ] improve code documentation
-- [ ] style the page after nier automata ui
-- [ ] add missing media 
-    - [ ] use linked-in profile picture for 'about me' section
-    - [ ] add a favorite clip from anime
-    - [ ] link to champion gundyr clip
+- [x] style the page after nier automata ui
+- [x] add missing media 
+    - [x] use a profile picture in the 'about me' section

@@ -38,6 +38,12 @@ ul {
   text-shadow: #7c796c 3px 3px;
 }
 
+.icon {
+  height: 1em;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
 .overlay {
   position: fixed;
   top: 0;
