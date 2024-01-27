@@ -1,10 +1,10 @@
 - [x] create portfolio outline
 - [x] move site to subdirectory
 - [x] add description about self
-- [ ] add post for squaredle solver
-    - [ ] describe problem
-    - [ ] add screen capture of application
-    - [ ] link to git repository
+- [x] add post for squaredle solver
+    - [x] describe problem
+    - [x] add screen capture of application
+    - [x] link to git repository
     - [ ] improve code documentation
 - [x] style the page after nier automata ui
 - [x] add missing media 
