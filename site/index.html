@@ -13,67 +13,104 @@
     <h1 class="title"> INTEL </h1>
 
     <h2> Unit S815 </h2>
-    <figure id="selfie-figure">
-      <img id="selfie-image" src="assets/unit-image-capture.png" alt="A scan of the likeness of unit S815" />
-      <figcaption id="selfie-caption">
-        <a href="https://github.com/SamuelSalam815">
-          <img class="icon" src="assets/github.svg" />SamuelSalam815
-        </a>
-        <br>
-        <a href="https://www.linkedin.com/in/samuel-salam-07b050251/">
-          <img class="icon" src="assets/linkedin.svg" />Samuel Salam
-        </a>
-      </figcaption>
-    </figure>
 
-    <p>Hi, I'm Sam.</p>
-    <p>I'm a junior software developer keen to break into to video game development!</p>
+    <div class="paragraph-with-image">
+      <div>
+        <p>Hi, I'm Sam.</p>
+        <p>I'm a C# software developer and I have a bit of an interest in video games :)
+        <p>
 
-    Some of my favorite games include:
-    <ul>
-      <li><a href="https://store.steampowered.com/app/524220/NieRAutomata/">Nier: Automata</a><a href="#footnote1">*</a>
-      </li>
-      <li><a href="https://en.bandainamcoent.eu/dark-souls/dark-souls-iii">The Dark Souls Franchise</a></li>
-      <li><a href="http://www.furigame.com/">Furi</a></li>
-    </ul>
+          These are three of my favorite games:
+        <ul>
+          <li><a href="https://store.steampowered.com/app/524220/NieRAutomata/">Nier: Automata</a><a
+              href="#footnote1">*</a>
+          </li>
+          <li><a href="https://en.bandainamcoent.eu/dark-souls/dark-souls-iii">The Dark Souls Franchise</a></li>
+          <li><a href="http://www.furigame.com/">Furi</a></li>
+        </ul>
+      </div>
+      <figure>
+        <img id="selfie-image" src="assets/unit-image-capture.png" alt="A scan of the likeness of unit S815" />
+        <figcaption class="image-caption">
+          <a href="https://github.com/SamuelSalam815">
+            <img class="icon" src="assets/github.svg" />SamuelSalam815
+          </a>
+          <br>
+          <a href="https://www.linkedin.com/in/samuel-salam-07b050251/">
+            <img class="icon" src="assets/linkedin.svg" />Samuel Salam
+          </a>
+        </figcaption>
+      </figure>
+    </div>
 
-
-    <h3 style="clear:both"> Capabilities </h3>
-    <p>
-      I use C# daily in my full-time job and I'm currently learning to use unity to build games in my free time.
-    </p>
-
-    <p>
-      I am familiar with both git and <a href="https://unity.com/solutions/version-control">Unity Version Control</a>
-      (aka Plastic SCM) for version control.
-    </p>
-
-    <h2> Incident Log </h2>
+    <h2 style="clear: both;"> Incident Log </h2>
 
     <h3> Squaredle Solver </h3>
 
-    <p>
-      My latest side project was started out of frustration!
-      Squaredle is an online puzzle...
-      So naturally I write a program to solve the puzzle for me.
-    </p>
+    <div class="paragraph-with-image">
+      <div>
+        <p>
+          My latest side project was based on "squaredle" - an word search game where words are found by drawing a path
+          through a grid of letters.
+        </p>
+        <div id="squaredle-explanation-spacer">
+          <br>
+          <br>
+          <br>
+        </div>
+        <p>
+          Squardle is fun, but there is nothing quite like ruining the fun by writing a program find the words for me!
+        </p>
+      </div>
 
-    <h3> Junior Software Developer </h3>
+      <a href="https://squaredle.app/">
+        <figure>
+          <img id="squaredle-demo" src="assets/SquaredleDemo.gif" alt="A demonstration of the puzzle">
+          <figcaption class="image-caption">
+            Squaredle.com
+          </figcaption>
+        </figure>
+      </a>
+    </div>
+
+    <div class="paragraph-with-image">
+      <div>
+        <p>
+          The solver is written in C# and uses WPF for the UI
+        </p>
+        <p>
+          Given some squaredle puzzle, the app finds words in the puzzle and displays the path used to construct the
+          word.
+        </p>
+        <p>
+          The user can also easily filter out the words they may have already found.
+        </p>
+      </div>
+      <figure style="clear: both;">
+        <a href="https://github.com/SamuelSalam815/SquaredleSolver">
+          <img id="squaredle-solver-demo" src="assets/SolverDemo.gif" alt="A demonstration of the solver">
+        </a>
+        <figcaption class="image-caption">
+          A demonstration of the solver.
+        </figcaption>
+      </figure>
+    </div>
+
+    <h3 style="clear: both;"> Junior Software Developer </h3>
 
     <p>Since October 2022 I have worked full-time as a junior software developer for an asset management
-      company.</p>
+      company. I pretty much only use C# in this role.</p>
 
-    <p>C# is the language of choice for all systems at my workplace!</p>
-
-    <p>I had not written softaware professionally before graduating, and the experience is much different!</p>
+    <p>Writing softaware professionally has been a dramatically different experience compared to hacking things together
+      in university. I find both approaches fun !</p>
 
     <h3> Computer Science Degree </h3>
     <p>I graduated and got my computer science degree from the University of Cambridge in 2022.</p>
 
-    <p>The courses I enjoyed the most were graphics and programming in C and C++.</p>
+    <p>The two courses I enjoyed the most were graphics and programming in C and C++.</p>
 
-    <p>My final year project was a lighting-based graphics project in which I tried to improve a lighting technique. I
-      used blender's python api to automate my experiments.</p>
+    <p>My final year project was a graphics project in which I
+      used blender's python api to automate lighting experiments.</p>
 
     <hr>
     <sub id="footnote1">* The design of this page is derived from the user interface of NieR: Automata. See this cool <a
