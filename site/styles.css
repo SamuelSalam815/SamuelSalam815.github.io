@@ -9,7 +9,6 @@ body {
   background-color: beige;
 }
 
-
 h2, h3, h4, h5, h6 {
   padding-top: 2px;
   padding-bottom: 2px;
@@ -29,6 +28,16 @@ h3, h4, h5, h6 {
 
 ul {
   list-style-type: square;
+}
+
+figure{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+p {
+  margin-right: 19.2px;
 }
 
 .content-text {
@@ -60,57 +69,56 @@ ul {
   pointer-events: none; 
 }
 
+.paragraph-with-image {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+}
+
+
+.image-caption {
+  text-align: center;
+}
+
 #grid-overlay {
   background-image: url('assets/grid-lines.svg');
   background-repeat: repeat;
   opacity: 0.03;
 }
 
-#selfie-figure {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-}
-
 #selfie-image {
-  display: block;
   max-width: 200px;
-  height: auto;
 }
 
-#selfie-caption {
-  text-align: center;
+#squaredle-demo {
+  max-width: 200px;
 }
 
-/* for mobile */
+#squaredle-solver-demo {
+  max-width: 200px;
+}
+
+#shadow-overlay {
+  box-shadow: inset 0 0 100px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* mobile overrides */
 @media (max-width: 600px) {
-
-  #selfie-figure {
-    float: center;
-  }
-
-  #selfie-image{
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #shadow-overlay {
-    box-shadow: inset 0 0 100px 20px rgba(0, 0, 0, 0.5);
-  }
-}
-
-/* for tablet and desktop */
-@media (min-width: 601px) {
-  #selfie-figure {
-    float: right;
-  }
-
-  #selfie-image {
-    margin-left: auto;
-    margin-right:0;
+  .paragraph-with-image {
+    flex-direction: column;
   }
 
   #shadow-overlay {
     box-shadow: inset 0 0 100px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  #squaredle-solver-demo {
+    max-width: 100%;
+  }
+
+  #squaredle-explanation-spacer{
+    display: none;
   }
 }
