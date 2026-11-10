@@ -1,0 +1,47 @@
+---
+import selfie from '../assets/unit-image-capture.png'
+import linkedinIcon from '../assets/linkedin.svg'
+import githubIcon from '../assets/github.svg'
+---
+<h2> Unit S815 </h2>
+
+<div class="paragraph-with-image">
+    <div>
+        <p>Hello, I'm Sam.</p>
+        <p>I'm a C# software developer and I have a bit of an interest in video games :)</p>
+            These are three of my favorite games:
+        <ul>
+            <li>
+                <a href="https://store.steampowered.com/app/524220/NieRAutomata/">NieR: Automata</a>
+                <a href="#footnote1">*</a>
+            </li>
+            <li><a href="https://en.bandainamcoent.eu/dark-souls/dark-souls-iii">The Dark Souls Franchise</a></li>
+            <li><a href="http://www.furigame.com/">Furi</a></li>
+        </ul>
+    </div>
+    <figure>
+        <img
+            id="selfie-image"
+            src={selfie.src}
+            alt="A picture of Sam" />
+        <figcaption class="image-caption">
+            <a href="https://github.com/SamuelSalam815">
+                <img
+                        class="icon"
+                        src={githubIcon.src}
+                        alt="github icon"
+                />SamuelSalam815
+            </a>
+            <br>
+            <a href="https://www.linkedin.com/in/samuel-salam-07b050251/">
+                <img
+                        class="icon"
+                        src={linkedinIcon.src}
+                        alt="linkedin icon"
+                />Samuel Salam
+            </a>
+        </figcaption>
+    </figure>
+    <sub id="footnote1">* The design of this page is derived from the user interface of NieR: Automata. See this cool <a
+            href="https://www.platinumgames.com/official-blog/article/9624">blog</a>!</sub>
+</div>
